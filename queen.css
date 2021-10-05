@@ -1,0 +1,77 @@
+.chessboard {
+    width: 640px;
+    height: 640px;
+    
+    border: 25px solid #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.header{
+     text-align: center;
+     color: black;
+     margin-top: 20px;
+     font-size:x-large;
+}
+.down:hover{
+    
+
+    background-color:darkcyan;
+    
+    color: white;
+}
+.up:hover{
+    
+    background-color:maroon;
+
+    color: white;
+}
+.left:hover{
+    
+    background-color:orange;
+    
+    color: white;
+}
+.right:hover{
+    
+    background-color:yellowgreen;
+    
+    color: white;
+}
+.button{
+    
+    width:250px;
+    padding: 30px;
+    display:inline;
+    margin-left:655px;
+    margin-top:50px;
+    transition-duration: 0.4s;
+    font-size:24px;
+    height: 50px;
+}
+
+/* CSS : Align the queen board to center */
+/* CSS : Add a banner at the top that displays a heading */
+/* CSS : Change the buttons to represent icon */
